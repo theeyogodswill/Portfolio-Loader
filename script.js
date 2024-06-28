@@ -1,0 +1,1 @@
+var style = document.createElement('style');

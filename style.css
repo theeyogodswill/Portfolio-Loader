@@ -1,0 +1,340 @@
+
+*{
+    margin: 0;
+}
+/*DESKTOP VIEW*/
+body{
+    background-image: url(grid.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.navigation-bar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
+    border: 1px solid #000;
+    padding-left: 50px;
+    background: rgba(44, 44, 44, 1);
+
+}
+#dropdown{
+    margin-left: 4px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.social{
+    padding-left: 40px;
+}
+
+a{
+    gap: 40px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.portfolio{
+    color: #ffffff;
+}
+.name{
+    padding-left: 370px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.5);
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding-left: 300px;
+}
+
+.profile-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+
+.sayhi-btn{
+width: 100px;
+height: 30px;
+padding: 8px 16px 8px 16px;
+gap: 10px;
+border-radius: 30px;
+opacity: 0px;
+background: rgba(15, 138, 28, 1);
+border: none;
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+line-height: 14.26px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+cursor: pointer;
+
+}
+
+#measure{
+    width: 100%;
+}
+
+/*HORIZONTAL LINE*/
+.horizontal{
+    margin-top: 20px;
+    border: 1px dashed;
+    color: rgba(0, 168, 17, 1);
+}
+
+.vertical{
+    rotate: 90deg;
+    width: 525px;
+    border: 1px dashed;
+    color: rgba(0, 168, 17, 1);
+    margin-top: 240px;
+    margin-left: -210px;
+}
+.vertical2{
+    rotate: 90deg;
+    width: 525px;
+    border: 1px dashed;
+    color: rgba(0, 168, 17, 1);
+    margin-top: -5px;
+    margin-left: 1040px;
+}
+
+
+#Alison{
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    margin-top: -168px;
+    margin-left: 696px;
+    border: 5px solid rgba(254, 201, 1, 1);
+}
+
+.introname{
+    width: 1234px;
+    height: 301px;
+    gap: 8px;
+    font-family: Gavency Free;
+    font-size: 240px;
+    font-weight: 400;
+    line-height: 264px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+
+
+.group{
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    color: rgba(175, 170, 187, 0.95);
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: left;
+    margin-left: 70px;
+
+}
+.group .text {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: flex-start;
+    list-style: none;
+    position: absolute;
+    margin:  5px 0;
+    padding: 0;
+    width: max-content;
+    animation: my-animation 34s linear infinite;
+}
+
+/*LAPTOP*/
+@media only screen and (min-width: 1440px) 
+{
+   body{
+    height: 100%;
+   }
+   
+    .social{
+        padding-left: 30px;
+    }
+    .name{
+        padding-left: 150px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+        padding-left: 100px;
+    }
+    #Alison{
+        width: 48px;
+        height: 48px;
+        border-radius: 50px;
+        margin-top: -168px;
+        margin-left: 400px;
+        border: 5px solid rgba(254, 201, 1, 1);
+    }
+    .introname{
+    width: 800px;
+    height: 201px;
+    gap: 8px;
+    font-family: Gavency Free;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 264px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 1px solid #000;
+}
+#measure{
+    width: 60%;
+}
+.vertical{
+    rotate: 90deg;
+    width: 525px;
+    border: 1px dashed;
+    color: rgba(0, 168, 17, 1);
+    margin-top: 240px;
+    margin-left: -230px;
+}
+.vertical2{
+    rotate: 90deg;
+    width: 525px;
+    border: 1px dashed;
+    color: rgba(0, 168, 17, 1);
+    margin-top: -5px;
+    margin-left: 540px;
+}
+
+
+.group{
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    color: rgba(175, 170, 187, 0.95);
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.51px;
+    text-align: left;
+    margin-left: 70px;
+
+}
+.group .text {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    list-style: none;
+    position: absolute;
+    margin:  5px 0;
+    padding: 0;
+    width: max-content;
+    animation: my-animation 34s linear infinite;
+}
+}
+
+
+@media only screen and (max-width: 1200px) 
+{
+    body{
+        height: 100%;
+        overflow: hidden;
+    }
+    #Alison{
+        width: 88px;
+        height: 88px;
+        border-radius: 50px;
+        margin-top: -178px;
+        margin-left: 650px;
+        border: 5px solid rgba(254, 201, 1, 1);
+    }
+    .introname{
+        width: 1100px;
+        height: 201px;
+        gap: 8px;
+        font-family: Gavency Free;
+        font-size: 200px;
+        font-weight: 400;
+        line-height: 264px;
+        letter-spacing: -0.06em;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .vertical{
+        rotate: 90deg;
+        width: 685px;
+        border: 1px dashed;
+        color: rgba(0, 168, 17, 1);
+        margin-top: 320px;
+        margin-left: -280px;
+    }
+    .vertical2{
+        rotate: 90deg;
+        width: 685px;
+        border: 1px dashed;
+        color: rgba(0, 168, 17, 1);
+        margin-left: 900px;
+    }
+    
+    .group{
+        position: relative;
+        height: 40px;
+        overflow: hidden;
+        color: rgba(175, 170, 187, 0.95);
+        display: flex;
+        flex-direction: row;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.51px;
+        text-align: left;
+        padding-top: 30px;
+        margin-left: 100px;
+    
+    }
+    .group .text {
+        display: flex;
+        flex-direction: row;
+        gap: 170px;
+        align-items: flex-start;
+        list-style: none;
+        position: absolute;
+        margin:  5px 0;
+        padding: 0;
+        width: max-content;
+        animation: my-animation 34s linear infinite;
+    }
+}
